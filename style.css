@@ -124,8 +124,7 @@ body {
 }
 
 .calculator-display {
-  background-color: #222222;
-  color: #fff;
+  background-color: #FFB673;
   font-size: 1.714285714em;
   padding: 0.5em 0.75em;
   text-align: right;
