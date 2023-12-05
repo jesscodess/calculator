@@ -1,17 +1,21 @@
+//Creating variables
+
 const userInput =  document.querySelector("#display");
 let expression = "";
 
-press = (num) => {
+//Functions
+
+function press (num) {
   expression += num;
   userInput.value = expression;
 };
 
-equal = () => {
+function equal () {
   userInput.value = eval(expression);
   expression = "";
 };
 
-erase = () => {
+function erase () {
   expression = "";
   userInput.value = expression;
 };
