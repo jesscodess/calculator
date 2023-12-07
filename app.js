@@ -1,6 +1,6 @@
 //Creating variables
 
-const userInput =  document.querySelector("#display");
+const userInput = document.querySelector("#display");
 let expression = "";
 
 //Functions
